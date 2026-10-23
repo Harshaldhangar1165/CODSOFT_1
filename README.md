@@ -72,34 +72,3 @@ CODSOFT_TASK1/
 ├── requirements.txt
 └── .gitignore
 ```
-
-## Push to GitHub
-
-Create a repository with the name required by your internship coordinator. The PDF asks interns to keep tasks in a separate repository named according to the `CODSOFT_TASKSNO` convention. If one repository must hold all tasks, place this project in a `Task1/` subfolder.
-
-```bash
-git init
-git add .
-git commit -m "Expand CodSoft Task 1 rule-based chatbot"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/CODSOFT_TASKSNO.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and the repository name with your actual details.
-
-## Demo video outline (60–90 seconds)
-
-1. Introduce the project as CodSoft AI Internship Task 1.
-2. Explain rule-based responses and regular-expression matching.
-3. Run the chatbot and demonstrate greeting, Python/AI explanation, a joke, study tips, date/time, and an unknown question.
-4. Run `python -m unittest -v`.
-5. Show the real GitHub repository URL.
-
-## Suggested LinkedIn caption
-
-> I expanded my CodSoft AI Internship Task 1 project: CodBot, a rule-based chatbot built with Python. It handles greetings, small talk, motivation, study tips, jokes, and introductory programming and AI questions using predefined patterns and responses. I also added unit tests and a helpful fallback for unsupported questions.
->
-> GitHub: [add your real repository link]
->
-> @CODSOFT #codsoft #artificialintelligence #python #internship #chatbot
